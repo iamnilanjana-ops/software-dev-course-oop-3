@@ -92,7 +92,7 @@ public class Main {
 
         scanner.nextLine();
 
-        library.add(new Book(title, year, author, pageCount));
+        library.add(new Book(title, author, year));
 
         System.out.println("Book added successfully!");
     }
@@ -113,7 +113,7 @@ public class Main {
 
         scanner.nextLine();
 
-        library.add(new Album(title, year, author, trackCount));
+        library.add(new Album(title, author, year, trackCount));
 
         System.out.println("Album added successfully!");
     }
@@ -134,7 +134,7 @@ public class Main {
 
         scanner.nextLine();
 
-        library.add(new Movie(title, year, author, durationInMinutes));
+        library.add(new Movie(title, author, year, durationInMinutes));
 
         System.out.println("Movie added successfully!");
     }

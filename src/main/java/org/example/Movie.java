@@ -4,8 +4,8 @@ public class Movie extends LibraryItem {
 
     protected int durationInMinutes;
 
-    public Movie(String title, int year, String author, int durationInMinutes) {
-        super(title, year, author);
+    public Movie(String title, String director, int year, int durationInMinutes) {
+        super(title, year, director);
         this.durationInMinutes = durationInMinutes;
     }
 
